@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Borrow My Angel</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="client.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="index.html">Borrow My Angel</a>
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="donations.html">Donate</a></li>
+				<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+				<li class="nav-item"><a class="nav-link" href="login.html">Log In</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">Sign Up</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="pinsignup.html">...as Person in Need</a>
+						<a class="dropdown-item" href="angelsignup.html">...as Angel</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<br/>
+		<div class="card">
+			<!-- Image can be inserted here at later date -->
+			<div class="card-body">
+				<h5 class="card-title">About Borrow My Angel</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus enim, sollicitudin sollicitudin aliquam ut, euismod quis augue. Proin et arcu facilisis, dapibus enim a, vestibulum tellus. Fusce vehicula quis eros tempus viverra. Donec vel arcu libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum interdum ligula in orci malesuada ultrices. Aliquam non ipsum ut sem pellentesque vestibulum. Morbi sagittis, nunc quis euismod placerat, lacus mi fermentum risus, non venenatis diam felis vitae velit. Aenean ultrices turpis lacus, quis rutrum dui facilisis et.
+
+Nunc vehicula mauris non imperdiet consequat. Proin ultricies posuere lorem, tempus interdum quam molestie ac. Ut elementum ante nec leo maximus pretium. Etiam nec justo sit amet orci rutrum mattis hendrerit vitae ligula. Sed a lectus sed velit elementum sagittis. Quisque placerat nulla at massa posuere consectetur non nec libero. In at cursus diam. Suspendisse non urna eget dui auctor porttitor et non sem. Duis in ornare ante. In quam nisi, dignissim id quam vitae, varius convallis orci. Donec eget urna arcu. Nunc odio quam, condimentum ultricies turpis id, eleifend posuere lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+Nunc pulvinar condimentum vulputate. Pellentesque vitae nisl tempor ipsum blandit faucibus. Fusce interdum dictum venenatis. Suspendisse vitae mauris vitae nunc rutrum feugiat eget at mauris. In ut tempor turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ullamcorper lacinia turpis ut varius. Sed pretium gravida orci a venenatis. Mauris at pharetra turpis. Quisque vitae justo nec purus fringilla fermentum ut vitae mi. Quisque cursus, arcu et cursus fringilla, nulla mauris condimentum odio, in eleifend nisi dolor vitae erat. Pellentesque in massa mauris. Donec vel erat id nisi gravida efficitur nec ut diam. Pellentesque facilisis risus congue, auctor nulla vel, dapibus ligula. Ut blandit nisl et eros mollis, ut congue nibh consectetur. Nulla facilisi.
+
+Proin vel nulla ac justo auctor auctor eu nec velit. Nunc commodo vulputate lacus id convallis. In ut vulputate nunc. Phasellus eu est rhoncus, rutrum ante vel, aliquet enim. Proin semper tellus auctor fringilla ornare. Mauris molestie orci id quam varius, dignissim euismod felis semper. Sed tincidunt, magna vitae scelerisque pellentesque, nisi mauris consectetur tellus, in malesuada sapien lectus eget ante. Proin viverra, nulla et scelerisque varius, felis risus scelerisque leo, in ornare turpis justo eget sem. Nullam finibus urna sit amet leo molestie, vel tincidunt massa varius. Etiam consequat iaculis libero, et consequat ex aliquet in. Nam nec eros sed lorem efficitur elementum. Pellentesque vel arcu dapibus, pellentesque nisl sit amet, congue lacus. Phasellus hendrerit ligula id massa venenatis faucibus. Sed et malesuada erat, vel egestas erat. Vivamus vestibulum rutrum dui, at mollis ligula varius ac. Aliquam erat volutpat.
+
+Integer arcu arcu, mollis ut lectus et, pharetra venenatis felis. In hac habitasse platea dictumst. Praesent sit amet varius nulla, pellentesque fringilla est. Vestibulum viverra eu risus at tristique. Proin molestie arcu volutpat est porttitor cursus. Ut pretium volutpat dui, dignissim bibendum neque mattis ut. Sed sit amet nisl augue. Duis rutrum mollis eros in accumsan. Sed ante enim, semper congue aliquam ut, pretium et tortor. Aenean imperdiet mauris quis velit finibus, vitae gravida sem congue. Fusce efficitur enim justo, at tempus velit pulvinar molestie. Morbi eu libero arcu. Suspendisse ultricies vestibulum dictum. Nulla at varius tortor, vitae porttitor nibh. Sed condimentum scelerisque mi eu faucibus. Maecenas auctor tristique nisl nec eleifend.</p>
+				<a class="btn btn-primary" href="https://www.facebook.com/borrowmyangel/">Visit Our Facebook Page</a>
+				<!-- Add links here -->
+			</div>
+		</div>
+	</body>
+</html>

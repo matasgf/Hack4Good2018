@@ -1,0 +1,11 @@
+{
+  "name": "hack4good2018",
+  "version": "1.0.0",
+  "description": "Borrow My Angel code",
+  "main": "BMAServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank Giddens",
+  "license": "ISC"
+}
